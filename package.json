@@ -1,0 +1,34 @@
+{
+  "name": "shallow-equal-fuzzy",
+  "description": "Fuzzy implementation of shallowEqual algoritm",
+  "version": "0.0.1",
+  "repository": "http://github.com/lexich/shallow-equal-fuzzy",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run eslint && node_modules/.bin/mocha test.js",
+    "eslint": "node_modules/.bin/eslint *.js",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "postmerge": "npm install"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "devDependencies": {
+    "babel": "6.3.26",
+    "babel-cli": "6.4.5",
+    "babel-core": "6.4.5",
+    "babel-eslint": "4.1.8",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "chai": "3.5.0",
+    "eslint": "1.10.3",
+    "eslint-config-airbnb": "5.0.0",
+    "eslint-plugin-react": "3.16.1",
+    "husky": "0.10.2",
+    "mocha": "2.4.5"
+  }
+}
