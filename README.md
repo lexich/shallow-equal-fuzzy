@@ -12,4 +12,6 @@ sef([1, 2, 3], [3, 2, 1]) === true;
 sef([1, "2", 3], ["3", 2, 1]) === true;
 sef({ id: 1}, { id: "1"}) === true;
 sef([{ id: 1}], [{id: "1"}]) === true;
+
+// other functionality inherit from origin implementation
 ```
