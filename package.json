@@ -1,7 +1,7 @@
 {
   "name": "shallow-equal-fuzzy",
   "description": "Fuzzy implementation of shallowEqual algoritm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "http://github.com/lexich/shallow-equal-fuzzy",
   "main": "index.js",
   "license": "MIT",
