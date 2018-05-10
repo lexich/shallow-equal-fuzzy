@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/lexich/shallow-equal-fuzzy/badge.png?branch=master)](https://coveralls.io/r/lexich/shallow-equal-fuzzy?branch=master)
 
 ### About shallow-equal-fuzzy
-Update version of shallowEqual algoritm from https://github.com/facebook/fbjs/blob/master/src/core/shallowEqual.js with fuzzy functionality
+Update version of shallowEqual algoritm from https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/core/shallowEqual.js with fuzzy functionality
 
 ```js
 import sef from "shallow-equal-fuzzy";
